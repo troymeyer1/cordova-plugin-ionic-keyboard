@@ -133,6 +133,7 @@ NSString* UITraitsClassString;
 {
     UIScrollView *scrollView = [self.webView scrollView];
     [scrollView setContentInset:UIEdgeInsetsZero];
+	[scrollView setContentOffset:CGPointMake(0, 0)];
 }
 
 - (void)onKeyboardWillHide:(NSNotification *)sender
